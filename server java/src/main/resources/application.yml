@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      repositories:
+        enabled: true
+      uri: mongodb://mongo/docker
+profile:
+  message: Hi I run without profile
